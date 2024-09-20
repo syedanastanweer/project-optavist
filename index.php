@@ -76,7 +76,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="iframe-container" data-aos="fade-up" data-aos-delay="300">
+                        <div class="iframe-container">
                             <iframe src="https://www.youtube.com/embed/XHOmBV4js_E?si=678QVhubK_wKmtHp"
                                 title="YouTube video player"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
