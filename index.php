@@ -67,7 +67,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h2 data-aos="fade-down" data-aos-delay="300">Your Coaching Journey</h2>
-                        <h3 data-aos="fade-down" data-aos-delay="300">Start Here</h3>
+                        <h3 data-aos="fade-up" data-aos-delay="300">Start Here</h3>
                     </div>
                 </div>
             </div>
@@ -76,7 +76,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="iframe-container">
+                        <div class="element-box">&nbsp;</div>
+                        <div class="iframe-container" data-aos="fade-right" data-aos-delay="300">
                             <iframe src="https://www.youtube.com/embed/XHOmBV4js_E?si=678QVhubK_wKmtHp"
                                 title="YouTube video player"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -93,6 +94,7 @@
                     <div class="col-md-12">
                         <h2 data-aos="fade-down" data-aos-delay="300">Your 5 Simple Steps to</h2>
                         <h3 data-aos="fade-down" data-aos-delay="300">Sucess</h3>
+                        <div class="element-circle">&nbsp;</div>
                     </div>
                 </div>
             </div>
@@ -101,6 +103,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-10">
+                       
                         <div class="secimgone" data-aos="fade-right" data-aos-delay="300">
                             <div class="row">
                                 <div class="col-md-2">
