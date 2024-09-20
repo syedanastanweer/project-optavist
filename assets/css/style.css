@@ -138,12 +138,132 @@ iframe {
     border: none;
 }
 
-.midder-three img {
+/* .midder-three img {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
-    display: block; /* Ensures images are block elements */
-    object-fit: cover; /* Optionally ensures images cover the area without distortion */
+    display: block;
+    object-fit: cover;
+} */
+
+.midder-three .secimgone,
+.midder-three .secimgtwo,
+.midder-three .secimgthree,
+.midder-three .secimgfour,
+.midder-three .secimgfive {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.midder-three .secimgone .textone {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+}
+
+.midder-three .secimgtwo .textone {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    padding-left: 24px;
+}
+
+.midder-three .secimgthree .textone {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+}
+
+.midder-three .secimgfour .textone {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    padding-left: 24px;
+}
+
+.midder-three .secimgfive .textone {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+}
+
+.midder-three .secimgone .textthree {
+    padding-top: 36px;
+    padding-left: 70px;
+}
+
+.midder-three .secimgtwo .textthree {
+    padding-top: 36px;
+    padding-left: 8rem;
+}
+
+.midder-three .secimgthree .textthree {
+    padding-top: 36px;
+    padding-left: 70px;
+}
+
+.midder-three .secimgfour .textthree {
+    padding-top: 36px;
+    padding-left: 8rem;
+}
+
+.midder-three .secimgfive .textthree {
+    padding-top: 36px;
+    padding-left: 70px;
+}
+
+.midder-three .secimgone .texttwo {
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.midder-three .secimgtwo .texttwo {
+    padding-top: 40px;
+    padding-left: 20px;
+    width: 34rem;
+}
+
+.midder-three .secimgthree .texttwo {
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.midder-three .secimgfour .texttwo {
+    padding-top: 40px;
+    padding-left: 20px;
+    width: 34rem;
+}
+
+.midder-three .secimgfive .texttwo {
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+
+.midder-three .secimgone .texttwo h2,
+.midder-three .secimgtwo .texttwo h2,
+.midder-three .secimgthree .texttwo h2,
+.midder-three .secimgfour .texttwo h2,
+.midder-three .secimgfive .texttwo h2 {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.midder-three .secimgone .texttwo h3,
+.midder-three .secimgtwo .texttwo h3,
+.midder-three .secimgthree .texttwo h3,
+.midder-three .secimgfour .texttwo h3,
+.midder-three .secimgfive .texttwo h3 {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: capitalize;
 }
 
 
@@ -178,9 +298,31 @@ iframe {
     margin-bottom: 0;
 }
 
-.secimgfive {
-    padding-bottom: 10rem;
+.secimgtwo .row,
+.secimgfour .row{
+    margin-left: 8rem;
 }
+
+.midder-three .secimgone {
+    background: url('../img/secimgone.png') center center / 100% 100% no-repeat;
+}
+
+.midder-three .secimgtwo {
+    background: url('../img/secimgtwo.png') center center / 100% 100% no-repeat;
+}
+
+.midder-three .secimgthree {
+    background: url('../img/secimgthree.png') center center / 100% 100% no-repeat;
+}
+
+.midder-three .secimgfour {
+    background: url('../img/secimgfour.png') center center / 100% 100% no-repeat;
+}
+
+.midder-three .secimgfive {
+    background: url('../img/secimgfive.png') left center / 90% 100% no-repeat;
+}
+
 
 @media (max-width: 768px) {
     .hero-section {
@@ -245,6 +387,22 @@ iframe {
         padding-bottom: 2rem;
     }
 }
+
+@media (max-width: 1400px) {
+    .midder-three .container {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .iframe-container {
+        width: 80%;
+        height: 60vh;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8);
+        overflow: hidden;
+        position: relative;
+        left: 10%;
+        right: 0;
+    }
+  }
 
 /* 
 @media screen and (min-width: 320px) and (max-width: 520px) {

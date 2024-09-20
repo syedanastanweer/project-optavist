@@ -102,39 +102,128 @@
                 <div class="row">
                     <div class="col-md-10">
                         <div class="secimgone">
-                            <img src="assets/img/secimgone.png">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="textone">
+                                        <img src="assets/img/secimgone-txt1.png">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="texttwo">
+                                        <h2>Set Your Goals</h2>
+                                        <h3>Discover what's possible and set your income and impact targets.</h3>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="textthree">
+                                        <img src="assets/img/secimgone-txt3.png">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-10 offset-md-2">
                         <div class="secimgtwo">
-                            <img src="assets/img/secimgtwo.png">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-10">
-                        <div class="secimgthree">
-                            <img src="assets/img/secimgthree.png">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-10 offset-md-2">
-                        <div class="secimgfour">
-                            <img src="assets/img/secimgfour.png">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-10">
-                        <div class="secimgfive">
-                            <img src="assets/img/secimgfive.png">
+                            <div class="row">
+                                <div class="col-md-2">
+                                <div class="textone">
+                                    <img src="assets/img/secimgtwo-txt1.png">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="texttwo">
+                                    <h2>Practice Calls</h2>
+                                    <h3>Invite friends to help you practice calls as you prepare to
+                                        launch your business.</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="textthree">
+                                    <img src="assets/img/secimgtwo-txt3.png">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-10">
+                    <div class="secimgthree">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="textone">
+                                    <img src="assets/img/secimgthree-txt1.png">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="texttwo">
+                                    <h2>Launch Your Business</h2>
+                                    <h3>Follow our step-by-step
+                                        process for your “GRAND OPENING”!</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="textthree">
+                                    <img src="assets/img/secimgthree-txt3.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 offset-md-2">
+                    <div class="secimgfour">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="textone">
+                                    <img src="assets/img/secimgfour-txt1.png">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="texttwo">
+                                    <h2>Grow Your Impact</h2>
+                                    <h3>Spread the word and make connections with simple Business Building
+                                        Activities. Follow the map!</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="textthree">
+                                    <img src="assets/img/secimgfour-txt3.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10">
+                    <div class="secimgfive">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="textone">
+                                    <img src="assets/img/secimgfive-txt1.png">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="texttwo">
+                                    <h2>Pay It Forward</h2>
+                                    <h3>Multiply your impact and income! Show others how to launch their own
+                                        business with this proven blueprint.</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="textthree">
+                                    <img src="assets/img/secimgfive-txt3.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </section>
     <section class="footer">
