@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Optavist</title>
     <link href="assets/css/style.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -52,11 +50,11 @@
                 </div>
             </div>
         </nav>
-        <div class="header-section">
-            <h1 data-aos="fade-down" data-aos-delay="300">Optavist</h1>
-            <h2>30 days to</h2>
-            <img src="assets/img/banner-txt-1.png" data-aos="fade-up" data-aos-delay="300">
-            <h3 data-aos="zoom-out" data-aos-delay="300">5 steps to fast track your success!</h3>
+        <div class="yourgoal-header-section">
+            <h1>Optavist</h1>
+            <h2>Set</h2>
+            <img src="assets/img/about-banner-txt-1.png">
+            <!-- <h3>5 steps to fast track your success!</h3> -->
         </div>
         </div>
     </section>
@@ -66,8 +64,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 data-aos="fade-down" data-aos-delay="300">Your Coaching Journey</h2>
-                        <h3 data-aos="fade-down" data-aos-delay="300">Start Here</h3>
+                        <h2>Your Coaching Journey</h2>
+                        <h3>Start Here</h3>
                     </div>
                 </div>
             </div>
@@ -76,7 +74,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="iframe-container" data-aos="fade-up" data-aos-delay="300">
+                        <div class="iframe-container">
                             <iframe src="https://www.youtube.com/embed/XHOmBV4js_E?si=678QVhubK_wKmtHp"
                                 title="YouTube video player"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -91,8 +89,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 data-aos="fade-down" data-aos-delay="300">Your 5 Simple Steps to</h2>
-                        <h3 data-aos="fade-down" data-aos-delay="300">Sucess</h3>
+                        <h2>Your 5 Simple Steps to</h2>
+                        <h3>Sucess</h3>
                     </div>
                 </div>
             </div>
@@ -101,7 +99,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-10">
-                        <div class="secimgone" data-aos="fade-right" data-aos-delay="300">
+                        <div class="secimgone">
                             <div class="row">
                                 <div class="col-md-2">
                                     <div class="textone">
@@ -125,7 +123,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-10 offset-md-2">
-                        <div class="secimgtwo" data-aos="fade-left" data-aos-delay="300">
+                        <div class="secimgtwo">
                             <div class="row">
                                 <div class="col-md-2">
                                     <div class="textone">
@@ -150,7 +148,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-10">
-                        <div class="secimgthree" data-aos="fade-right" data-aos-delay="300">
+                        <div class="secimgthree">
                             <div class="row">
                                 <div class="col-md-2">
                                     <div class="textone">
@@ -175,7 +173,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-10 offset-md-2">
-                        <div class="secimgfour" data-aos="fade-left" data-aos-delay="300">
+                        <div class="secimgfour">
                             <div class="row">
                                 <div class="col-md-2">
                                     <div class="textone">
@@ -200,7 +198,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-10">
-                        <div class="secimgfive" data-aos="fade-right" data-aos-delay="300">
+                        <div class="secimgfive">
                             <div class="row">
                                 <div class="col-md-2">
                                     <div class="textone">
@@ -227,17 +225,16 @@
         </div>
     </section>
     <section class="footer">
-        <h2 data-aos="zoom-out" data-aos-delay="300">
+        <h2>
             Congratulations!
         </h2>
-        <h3 data-aos="zoom-out-right" data-aos-delay="300">
+        <h3>
             You did it!
         </h3>
     </section>
 
-    <script src="assets/js/script.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
