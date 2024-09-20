@@ -15,7 +15,7 @@
     <div id="loader">
         <div class="loader-content">
             <!-- You can customize this content -->
-            <h1>Loading...</h1>
+            <h2>Loading...</h2>
         </div>
     </div>
 

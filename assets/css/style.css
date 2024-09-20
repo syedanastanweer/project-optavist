@@ -45,6 +45,11 @@ body {
     /* Ensure it is above all other content */
 }
 
+.loader-content h2{
+    font-family: 'High Spirited', sans-serif;
+    font-size: 100px;
+}
+
 /* Hide the main content while loading */
 .main-content {
     opacity: 0;
