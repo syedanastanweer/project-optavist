@@ -93,7 +93,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h2 data-aos="fade-down" data-aos-delay="300">Your 5 Simple Steps to</h2>
-                        <h3 data-aos="fade-down" data-aos-delay="300">Sucess</h3>
+                        <h3 data-aos="fade-down" data-aos-delay="300">Success</h3>
                         <div class="element-circle">&nbsp;</div>
                     </div>
                 </div>
