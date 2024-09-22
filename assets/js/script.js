@@ -2,6 +2,8 @@ AOS.init({
   duration: 1200,
 });
 
+////end AOS animations
+
 window.addEventListener('load', function () {
   const loader = document.getElementById('loader');
   const mainContent = document.querySelector('.main-content');
