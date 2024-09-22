@@ -1,0 +1,103 @@
+@keyframes loading {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+/* Fade-in animation for main content */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(-100px);
+        /* Move up */
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        /* Move down */
+        opacity: 1;
+    }
+}
+
+@keyframes moveLeftRight {
+    0% {
+        transform: translateX(-200px);
+        /* Move from left */
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        /* Move to original position */
+        opacity: 1;
+    }
+}
+
+@keyframes moveBottomTop {
+    0% {
+        transform: translateY(100px);
+        /* Move up from bottom */
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        /* Move to original position */
+        opacity: 1;
+    }
+}
+
+@keyframes zoomInOutOne {
+    0% {
+        transform: scale(4);
+        /* Start at normal size (no zoom) */
+    }
+
+    100% {
+        transform: scale(1);
+        /* End with zoom out effect */
+    }
+}
+
+@keyframes zoomInOutSecond {
+    0% {
+        transform: scale(2.5);
+        /* Start at normal size (no zoom) */
+    }
+
+    100% {
+        transform: scale(0.8);
+        /* End with zoom out effect */
+    }
+}
+
+@keyframes zoomInOutBg {
+    0% {
+        transform: scale(1);
+        /* Start with normal size */
+    }
+
+    50% {
+        transform: scale(1.2);
+        /* Zoom in */
+    }
+
+    100% {
+        transform: scale(1);
+        /* Zoom out */
+    }
+}

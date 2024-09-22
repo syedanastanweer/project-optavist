@@ -14,10 +14,13 @@
 
     <div id="loader">
         <div class="loader-content">
-            <!-- You can customize this content -->
             <h2>Loading...</h2>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
         </div>
     </div>
+
 
     <section class="main-content">
         <section class="hero-section">
@@ -61,11 +64,18 @@
                     </div>
                 </div>
             </nav>
+
             <div class="header-section">
-                <h1 data-aos="fade-down" data-aos-delay="1800">Optavist</h1>
-                <h2 data-aos="fade-right" data-aos-delay="1800">30 days to</h2>
-                <img src="assets/img/banner-txt-1.png" data-aos="fade-up" data-aos-delay="1800">
-                <h3 class="animate-on-scroll">5 steps to fast track your success!</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="animate-topToBottom">Optavist</h1>
+                            <h2 class="animate-leftToRight">30 days to</h2>
+                            <img class="animate-bottomToTop" src="assets/img/banner-txt-1.png">
+                            <h3 class="animate-zoomIntoZoomOutOne">5 steps to fast track your success!</h3>
+                        </div>
+                    </div>
+                </div>
             </div>
             </div>
         </section>
@@ -83,7 +93,7 @@
             <div class="midder-one">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-10 offset-md-1">
                             <div class="element-box">&nbsp;</div>
                             <div class="iframe-container" data-aos="fade-right" data-aos-delay="300">
                                 <iframe src="https://www.youtube.com/embed/XHOmBV4js_E?si=678QVhubK_wKmtHp"
@@ -238,58 +248,15 @@
             </div>
         </section>
         <section class="footer">
-            <h2 class="animate-on-scroll">
+            <h2 class="animate-zoomIntoZoomOutTwo">
                 Congratulations!
             </h2>
-            <h3 data-aos="fade-up" data-aos-delay="300">
+            <h3 class="animate-bottomToTop">
                 You did it!
             </h3>
         </section>
 
     </section>
-    <script>
-        window.addEventListener('load', function () {
-            const loader = document.getElementById('loader');
-            const mainContent = document.querySelector('.main-content');
-
-            // Hide the loader and show the main content
-            loader.classList.add('hidden');
-
-            // Ensure main content is visible and starts fade-in animation
-            mainContent.classList.add('loaded');
-
-            // Trigger animations after the loader disappears
-            const elements = document.querySelectorAll('.animate-on-scroll');
-
-            const observerOptions = {
-                root: null,
-                threshold: 0.1
-            };
-
-            const observerCallback = (entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        if (entry.target.tagName === 'H3') {
-                            entry.target.style.opacity = 1;
-                            entry.target.style.animation = 'zoomInOutOne 1s ease-in-out forwards'; // Trigger h3 animation
-                        } else if (entry.target.tagName === 'H2') {
-                            entry.target.style.opacity = 1;
-                            entry.target.style.animation = 'zoomInOutSecond 1s ease-in-out forwards'; // Trigger h2 animation
-                        }
-                        observer.unobserve(entry.target); // Stop observing after the animation
-                    }
-                });
-            };
-
-            const observer = new IntersectionObserver(observerCallback, observerOptions);
-
-            elements.forEach(element => {
-                observer.observe(element); // Observe each element
-            });
-        });
-
-
-    </script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
 
