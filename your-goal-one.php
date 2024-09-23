@@ -6,30 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Optavist</title>
     <link href="assets/css/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.css" rel="stylesheet">
 </head>
 
 <body>
-    <section class="hero-section">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Resources</a>
-                        </li>
-                        <!-- <li class="nav-item dropdown">
+
+    <div id="loader">
+        <div class="loader-content">
+            <h2>Loading...</h2>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="main-content">
+        <section class="hero-section">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Resources</a>
+                            </li>
+                            <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Dropdown
@@ -43,198 +57,248 @@
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </li> -->
-                        <li class="nav-item">
-                            <a class="nav-link head-btn" href="#" tabindex="-1" aria-disabled="true">Get Started</a>
-                        </li>
-                    </ul>
+                            <li class="nav-item">
+                                <a class="nav-link head-btn" href="#" tabindex="-1" aria-disabled="true">Get Started</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
-        <div class="yourgoal-header-section">
-            <h1>Optavist</h1>
-            <h2>Set</h2>
-            <img src="assets/img/about-banner-txt-1.png">
-            <!-- <h3>5 steps to fast track your success!</h3> -->
-        </div>
-        </div>
-    </section>
+            </nav>
 
-    <section class="sectwo">
-        <div class="upper">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>Your Coaching Journey</h2>
-                        <h3>Start Here</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="midder-one">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="iframe-container">
-                            <iframe src="https://www.youtube.com/embed/XHOmBV4js_E?si=678QVhubK_wKmtHp"
-                                title="YouTube video player"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                            </iframe>
+            <div class="header-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="animate-topToBottom">Optavist</h1>
+                            <h2 class="animate-leftToRight">Set</h2>
+                            <img class="animate-bottomToTop" src="assets/img/about-banner-txt-1.png">
+                            <!-- <h3 class="animate-zoomIntoZoomOutOne">5 steps to fast track your success!</h3> -->
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="midder-two">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>Your 5 Simple Steps to</h2>
-                        <h3>Sucess</h3>
-                    </div>
-                </div>
             </div>
-        </div>
-        <div class="midder-three">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-10">
-                        <div class="secimgone">
-                            <div class="row">
-                                <div class="col-md-2">
-                                    <div class="textone">
-                                        <img src="assets/img/secimgone-txt1.png">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="texttwo">
-                                        <h2>Set Your Goals</h2>
-                                        <h3>Discover what's possible and set your income and impact targets.</h3>
-                                    </div>
-                                </div>
-                                <div class="col-md-2">
-                                    <div class="textthree">
-                                        <img src="assets/img/secimgone-txt3.png">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-10 offset-md-2">
-                        <div class="secimgtwo">
-                            <div class="row">
-                                <div class="col-md-2">
-                                    <div class="textone">
-                                        <img src="assets/img/secimgtwo-txt1.png">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="texttwo">
-                                        <h2>Practice Calls</h2>
-                                        <h3>Invite friends to help you practice calls as you prepare to
-                                            launch your business.</h3>
-                                    </div>
-                                </div>
-                                <div class="col-md-2">
-                                    <div class="textthree">
-                                        <img src="assets/img/secimgtwo-txt3.png">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-10">
-                        <div class="secimgthree">
-                            <div class="row">
-                                <div class="col-md-2">
-                                    <div class="textone">
-                                        <img src="assets/img/secimgthree-txt1.png">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="texttwo">
-                                        <h2>Launch Your Business</h2>
-                                        <h3>Follow our step-by-step
-                                            process for your “GRAND OPENING”!</h3>
-                                    </div>
-                                </div>
-                                <div class="col-md-2">
-                                    <div class="textthree">
-                                        <img src="assets/img/secimgthree-txt3.png">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-10 offset-md-2">
-                        <div class="secimgfour">
-                            <div class="row">
-                                <div class="col-md-2">
-                                    <div class="textone">
-                                        <img src="assets/img/secimgfour-txt1.png">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="texttwo">
-                                        <h2>Grow Your Impact</h2>
-                                        <h3>Spread the word and make connections with simple Business Building
-                                            Activities. Follow the map!</h3>
-                                    </div>
-                                </div>
-                                <div class="col-md-2">
-                                    <div class="textthree">
-                                        <img src="assets/img/secimgfour-txt3.png">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-10">
-                        <div class="secimgfive">
-                            <div class="row">
-                                <div class="col-md-2">
-                                    <div class="textone">
-                                        <img src="assets/img/secimgfive-txt1.png">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="texttwo">
-                                        <h2>Pay It Forward</h2>
-                                        <h3>Multiply your impact and income! Show others how to launch their own
-                                            business with this proven blueprint.</h3>
-                                    </div>
-                                </div>
-                                <div class="col-md-2">
-                                    <div class="textthree">
-                                        <img src="assets/img/secimgfive-txt3.png">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="footer">
-        <h2>
-            Congratulations!
-        </h2>
-        <h3>
-            You did it!
-        </h3>
-    </section>
+        </section>
 
-    <!-- Bootstrap JS and Popper.js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <section class="yourgoal-sectwo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="heading">
+                            <h2>First, let’s talk about your <br>WHY and your <span>GOALS…</span></h2>
+                        </div>
+                        <div class="para">
+                            <p>
+                                Be sure to write your answers down (you can print the PDF
+                                worksheet below, or simply use a blank piece of paper
+                                or your notes app on your phone)
+                            </p>
+                        </div>
+                        <div class="yg-elem-one">&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectwo">
+            <div class="midder-one">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1">
+                            <div class="your-goals-element-box">&nbsp;</div>
+                            <div class="iframe-container yg-custom" data-aos="fade-right" data-aos-delay="300">
+                                <iframe src="https://www.youtube.com/embed/XHOmBV4js_E?si=678QVhubK_wKmtHp"
+                                    title="YouTube video player"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="midder-three yg-custom">
+                <div class="element-circle">&nbsp;</div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <div class="secimgone" data-aos="fade-right" data-aos-delay="300">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="textone">
+                                            <img src="assets/img/secimgone-txt1.png">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="texttwo">
+                                            <h2>Your Why</h2>
+                                            <h3>Think about why you said YES to coaching. Write a few sentences here
+                                                about why you said yes, what this opportunity will do for you and how it
+                                                could impact your life.</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="textthree">
+                                            <img src="assets/img/element-question.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10 offset-md-2">
+                            <div class="secimgtwo" data-aos="fade-left" data-aos-delay="300">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="textone">
+                                            <img src="assets/img/secimgtwo-txt1.png">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="texttwo">
+                                            <!-- <h2>Practice Calls</h2> -->
+                                            <h3>How much would you like to make in your first month of building this
+                                                business? $________/month (How would this income impact your life?)</h3>
+                                            <h3>How much would you like to make after 6 months? $________/month (How
+                                                would this income impact your life?)</h3>
+                                            <h3>Dream Big… If anything were possible, what is a monthly income goal that
+                                                would blow your mind? $________/month (How would this income impact your
+                                                life?)</h3>
+                                            <h3>What will this extra income do for you/your family?</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="textthree">
+                                            <img src="assets/img/secimgone-txt3.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10">
+                            <div class="secimgthree" data-aos="fade-right" data-aos-delay="300">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="textone">
+                                            <img src="assets/img/secimgthree-txt1.png">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="texttwo">
+                                            <h2>Your Time</h2>
+                                            <h3>How many hours per week can you realistically commit to achieve your
+                                                income goals? ________ hours/week</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="textthree">
+                                            <img src="assets/img/element-timedue.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10 offset-md-2">
+                            <div class="secimgfour" data-aos="fade-left" data-aos-delay="300">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="textone">
+                                            <img src="assets/img/secimgfour-txt1.png">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="texttwo">
+                                            <h2>Send Your Goals to Your Mentor.</h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="textthree">
+                                            <img src="assets/img/element-meet.png">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="secfour">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>You did it!</h2>
+                        <p>It's time to move on to step 02</p>
+                        <a>step 02</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="secfive">
+            <div class="first">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="one">
+                                <img src="assets/img/yg-left-arrow.png">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="two">
+                                <img src="assets/img/chart.png">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="three">
+                                <img src="assets/img/yg-right-arrow.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="second">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="one">
+                                <h2>PRINTABLE<br>GOALS<br>WORKSHEET</h2>
+                                <a>Download</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="two">
+                                <h2>PRINTABLE<br>GOALS<br>WORKSHEET</h2>
+                                <a>Download</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="three">
+                                <h2>PRINTABLE<br>GOALS<br>WORKSHEET</h2>
+                                <a>Download</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <h2 class="animate-zoomIntoZoomOutTwo">
+                Congratulations!
+            </h2>
+            <h3 class="animate-bottomToTop">
+                You did it!
+            </h3>
+        </section>
+
+    </section>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

@@ -62,14 +62,14 @@
 
     .header-section h2 {
         background: #8F469B;
-        padding: 10px 30px;
+        padding: 10px 30px !important;
         border-radius: 60px;
         font-family: 'Montserrat', sans-serif;
-        font-size: 14px;
+        font-size: 14px !important;
         text-transform: uppercase;
         letter-spacing: 20px;
         color: #ffffff;
-        margin: auto;
+        margin: auto !important;
     }
 
     .header-section img {
