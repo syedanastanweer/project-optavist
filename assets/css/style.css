@@ -981,7 +981,7 @@ iframe {
     }
 
     .midder-three .secimgtwo .textone {
-        padding-top: 50px;
+        padding-top: 40px;
         padding-bottom: 0px;
         padding-left: 0px;
         text-align: center;
@@ -1129,15 +1129,96 @@ iframe {
     .yg-custom.midder-three .secimgthree .texttwo h3,
     .yg-custom.midder-three .secimgfour .texttwo h3,
     .yg-custom.midder-three .secimgfive .texttwo h3 {
-        padding-bottom: 40px;
+        padding-bottom: 20px;
     }
 
     .midder-three.yg-custom .secimgone .textone {
-        padding-top: 100px;
+        padding-top: 50px;
         padding-bottom: 0px;
         padding-left: 0;
     }
 
+    .midder-three.yg-custom .secimgtwo .row {
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    .midder-three.yg-custom .secimgtwo .texttwo {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: auto;
+    }
+
+    .midder-three.yg-custom .secimgthree .textone {
+        padding-top: 40px;
+        padding-bottom: 0px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .midder-three.yg-custom .secimgthree .texttwo {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+    }
+
+    .midder-three.yg-custom .secimgfour .textone {
+        padding-top: 40px;
+        padding-bottom: 0;
+        padding-left: 0;
+    }
+
+    .midder-three.yg-custom .secimgfour .texttwo {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        width: auto;
+        padding-right: 20px;
+    }
+
+    .secfour h2 {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .secfour p {
+        color: #ffffff;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-transform: uppercase;
+        padding-bottom: 24px;
+    }
+
+    .secfive .first .one,
+    .secfive .first .three {
+        display: none;
+    }
+
+    .secfive .first .two img {
+        width: 70%;
+    }
+
+    .midder-three.yg-custom .secimgtwo {
+        background: #3B92FF;
+    }
+
+    .your-goals-element-box::before {
+        display: none;
+    }
 }
 
 @media (min-width: 1350px) and (max-width: 1500px) {

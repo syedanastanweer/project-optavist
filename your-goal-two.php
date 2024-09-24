@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Goal One | Optavist</title>
+    <title>Your Goal Two | Optavist</title>
     <link href="assets/css/style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.css" rel="stylesheet">
@@ -80,7 +80,7 @@
             </div>
         </section>
 
-        <section class="yourgoal-sectwo">
+        <!-- <section class="yourgoal-sectwo">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -98,20 +98,14 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section class="sectwo">
             <div class="midder-one">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-10 offset-md-1">
-                            <div class="your-goals-element-box">&nbsp;</div>
-                            <div class="iframe-container yg-custom" data-aos="fade-right" data-aos-delay="300">
-                                <iframe src="https://www.youtube.com/embed/XHOmBV4js_E?si=678QVhubK_wKmtHp"
-                                    title="YouTube video player"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                                </iframe>
-                            </div>
+                        <div class="col-md-12">
+                            <h2>What’s</h2>
+                            <h3>Possible</h3>
                         </div>
                     </div>
                 </div>
