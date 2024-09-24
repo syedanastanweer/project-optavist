@@ -272,13 +272,13 @@
                         </div>
                         <div class="col-md-4">
                             <div class="two">
-                                <h2>PRINTABLE<br>GOALS<br>WORKSHEET</h2>
+                                <h2>NEW COACH<br>EARNING<br>POTENTIAL</h2>
                                 <a>Download</a>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="three">
-                                <h2>PRINTABLE<br>GOALS<br>WORKSHEET</h2>
+                                <h2>OPTAVIA<br>COMPENSATION<br>PLAN</h2>
                                 <a>Download</a>
                             </div>
                         </div>

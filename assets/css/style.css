@@ -639,7 +639,7 @@ iframe {
 }
 
 .midder-three.yg-custom .secimgone .textone {
-    padding-top: 100px;
+    padding-top: 116px;
     padding-bottom: 0px;
     padding-left: 70px;
 }
@@ -654,6 +654,18 @@ iframe {
     padding-top: 50px;
     padding-left: 70px;
     overflow: visible;
+}
+
+.midder-three.yg-custom .secimgfour .texttwo {
+    padding-top: 50px;
+    padding-left: 20px;
+    width: 34rem;
+}
+
+.midder-three.yg-custom .secimgfour .textone {
+    padding-top: 80px;
+    padding-bottom: 16px;
+    padding-left: 16px;
 }
 
 .iframe-container.yg-custom {
@@ -706,69 +718,8 @@ iframe {
 .secfive {
     text-align: center;
     background: url('../img/secfive.png') center center / cover no-repeat;
-    padding-top: 40px;
-    padding-bottom: 70px;
-}
-
-.secfive .second {
-    padding-top: 80px;
-}
-
-.secfive .second .one {
-    background: url('../img/secfive-steps.png') center center / 100% 100% no-repeat;
-    padding-top: 80px;
-    padding-bottom: 180px;
-}
-
-.secfive .second .one a {
-    background-color: #FF7013;
-    color: #FFF;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    text-transform: uppercase;
-    padding: 4px 10px 4px 10px;
-    border-radius: 40px;
-}
-
-.secfive .second .two {
-    background: url('../img/secfive-steps.png') center center / 100% 100% no-repeat;
-    padding-top: 80px;
-    padding-bottom: 180px;
-}
-
-.secfive .second .two a {
-    background-color: #FF7013;
-    color: #FFF;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    text-transform: uppercase;
-    padding: 4px 10px 4px 10px;
-    border-radius: 40px;
-}
-
-.secfive .second .three {
-    background: url('../img/secfive-steps.png') center center / 100% 100% no-repeat;
-    padding-top: 80px;
-    padding-bottom: 180px;
-}
-
-.secfive .second .three a {
-    background-color: #FF7013;
-    color: #FFF;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    text-transform: uppercase;
-    padding: 4px 10px 4px 10px;
-    border-radius: 40px;
+    padding-top: 60px;
+    padding-bottom: 50px;
 }
 
 .secfive .first .one {
@@ -782,6 +733,45 @@ iframe {
     top: 50%;
     right: 30%;
 }
+
+.secfive .second {
+    padding-top: 80px;
+}
+
+.secfive .second .one,
+.secfive .second .two,
+.secfive .second .three {
+    background: url('../img/secfive-steps.png') center center / 100% 100% no-repeat;
+    padding-top: 80px;
+    padding-bottom: 160px;
+}
+
+.secfive .second .one h2,
+.secfive .second .two h2,
+.secfive .second .three h2 {
+    padding-top: 14px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.secfive .second .one a,
+.secfive .second .two a,
+.secfive .second .three a {
+    background-color: #FF7013;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 4px 10px 4px 10px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+
+
 
 @media (min-width: 320px) and (max-width: 450px) {
 
@@ -1150,7 +1140,7 @@ iframe {
 
 }
 
-@media (min-width: 1350px) and (max-width: 1450px) {
+@media (min-width: 1350px) and (max-width: 1500px) {
 
     html {
         overflow-x: hidden !important;
@@ -1167,7 +1157,7 @@ iframe {
 
     .iframe-container {
         width: 80% !important;
-        height: 60vh;
+        height: 80vh;
         box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8);
         overflow: hidden;
         position: relative;
@@ -1338,6 +1328,51 @@ iframe {
     .secfive {
         padding-left: 100px;
         padding-right: 100px;
+    }
+
+    .secfive {
+        text-align: center;
+        background: url(../img/secfive.png) center center / 100% 100% no-repeat;
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+
+    .midder-three.yg-custom .secimgone .textone {
+        padding-top: 116px;
+        padding-bottom: 0px;
+        padding-left: 54px;
+    }
+
+    .midder-three.yg-custom .secimgtwo .row {
+        margin-left: 0px;
+        padding-left: 30px;
+        padding-top: 40px;
+    }
+
+    .midder-three.yg-custom .secimgtwo .textone {
+        padding-top: 120px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        position: relative;
+        left: 16px;
+    }
+
+    .midder-three.yg-custom .secimgtwo .texttwo {
+        padding-top: 70px;
+        padding-bottom: 60px;
+        padding-left: 20px;
+        width: 32rem;
+    }
+
+    .midder-three.yg-custom .secimgtwo .textthree {
+        padding-top: 60px;
+        padding-left: 90px;
+    }
+
+    .midder-three.yg-custom .secimgthree .textone {
+        padding-top: 90px;
+        padding-bottom: 0px;
+        padding-left: 44px;
     }
 }
 
