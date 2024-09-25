@@ -23,7 +23,7 @@
 
 
     <section class="main-content">
-        <section class="hero-section">
+        <section class="hero-section yg-custom-one">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                     <!-- <a class="navbar-brand" href="#">Navbar</a> -->
@@ -65,7 +65,7 @@
                 </div>
             </nav>
 
-            <div class="header-section">
+            <div class="header-section yg-custom">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -99,7 +99,7 @@
                 </div>
             </div>
         </section>
-        <section class="sectwo">
+        <section class="sectwo yg-custom">
             <div class="midder-one">
                 <div class="container">
                     <div class="row">

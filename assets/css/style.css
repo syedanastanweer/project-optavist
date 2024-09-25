@@ -124,6 +124,84 @@ body {
     /* Looping animation */
 }
 
+.hero-section.yg-custom-one {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 0 20px;
+    overflow: hidden;
+    /* Ensure the background stays within the section */
+}
+
+.hero-section.yg-custom-one::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../img/yg-banner-1.jpg') center center / cover no-repeat;
+    z-index: -1;
+    /* animation: zoomInOutBg 18s ease-in-out infinite; */
+    /* Looping animation */
+}
+
+.hero-section.yg-custom-two {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 0 20px;
+    overflow: hidden;
+    /* Ensure the background stays within the section */
+}
+
+.hero-section.yg-custom-two::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../img/yg-banner-2.jpg') center center / cover no-repeat;
+    z-index: -1;
+    /* animation: zoomInOutBg 18s ease-in-out infinite; */
+    /* Looping animation */
+}
+
+.hero-section.yg-custom-three {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 0 20px;
+    overflow: hidden;
+    /* Ensure the background stays within the section */
+}
+
+.hero-section.yg-custom-three::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../img/yg-banner-2.jpg') center center / cover no-repeat;
+    z-index: -1;
+    /* animation: zoomInOutBg 18s ease-in-out infinite; */
+    /* Looping animation */
+}
+
 
 .navbar {
     margin-left: auto;
@@ -179,6 +257,16 @@ body {
     color: #ffffff;
     margin: 0 20rem;
     text-align: center;
+}
+
+.sectwo.yg-custom {
+    background: url('../img/sectwo.png') center center / cover no-repeat;
+    padding-bottom: 80px;
+}
+
+.sectwo.yg-custom-two {
+    background: url('../img/sectwo-yt-custom.png') center center / cover no-repeat;
+    padding-bottom: 80px;
 }
 
 .yourgoal-header-section h2 {
@@ -603,16 +691,14 @@ iframe {
 }
 
 .midder-three.yg-custom .secimgtwo .row {
-    margin-left: 0px;
-    padding-left: 40px;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .midder-three.yg-custom .secimgtwo .texttwo {
     padding-top: 70px;
     padding-bottom: 60px;
     padding-left: 20px;
-    width: 40rem;
+    width: 36rem;
 }
 
 .midder-three.yg-custom .secimgtwo .texttwo h3 {
@@ -770,7 +856,113 @@ iframe {
     cursor: pointer;
 }
 
+.yg-custom-two.sectwo .midder-one {
+    padding-top: 40px;
+    text-align: center;
+}
 
+.yg-custom-two.sectwo .midder-one h2 {
+    color: #000;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.yg-custom-two.sectwo .midder-one h3 {
+    color: #000;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 71.194px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+
+
+.midder-three.yg-custom-two .secimgtwo {
+    background: url('../img/ygsecimgtwo.png') center center / 100% 100% no-repeat;
+}
+
+.midder-three.yg-custom-two .secimgtwo .row {
+    /* margin-left: 0px; */
+    /* padding-left: 40px; */
+    padding-top: 20px;
+}
+
+
+.midder-three.yg-custom .secimgtwo .textone,
+.midder-three.yg-custom-two .secimgtwo .textone {
+    padding-top: 100%;
+    padding-bottom: 0px;
+    padding-left: 27px;
+}
+
+.midder-three.yg-custom-two .secimgtwo .texttwo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 16px;
+    width: 36rem;
+}
+
+.midder-three.yg-custom-two .secimgtwo .texttwo h3 {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: capitalize;
+    padding-bottom: 16px;
+}
+
+.midder-three.yg-custom-two .secimgone .texttwo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.midder-three.yg-custom-two .secimgthree .texttwo {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.midder-three.yg-custom-two .secimgone .textone {
+    padding-top: 116px;
+    padding-bottom: 0px;
+    padding-left: 70px;
+}
+
+.midder-three.yg-custom-two .secimgthree .textone {
+    padding-top: 90px;
+    padding-bottom: 0px;
+    padding-left: 60px;
+}
+
+.midder-three.yg-custom-two .secimgone .textthree {
+    padding-top: 50px;
+    padding-left: 70px;
+    overflow: visible;
+}
+
+.midder-three.yg-custom-two .secimgfour .texttwo {
+    padding-top: 50px;
+    padding-left: 20px;
+    width: 34rem;
+}
+
+.midder-three.yg-custom-two .secimgfour .textone {
+    padding-top: 80px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+}
 
 
 @media (min-width: 320px) and (max-width: 450px) {
@@ -837,6 +1029,34 @@ iframe {
 
     .header-section h2 {
         background: #8F469B;
+        padding: 10px 30px 10px 40px;
+        border-radius: 60px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 14px;
+        color: #ffffff;
+        margin: 0 2rem;
+        text-align: center;
+    }
+
+    .yg-custom-two.hero-section,
+    .yg-custom-three.hero-section {
+        position: relative;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        padding: 0 20px;
+        overflow: hidden;
+    }
+
+    .yg-custom.header-section h2,
+    .yg-custom-two.header-section h2,
+    .yg-custom-three.header-section h2 {
+        background: #8F469B;
         padding: 10px 30px;
         border-radius: 60px;
         font-family: 'Montserrat', sans-serif;
@@ -844,11 +1064,13 @@ iframe {
         text-transform: uppercase;
         letter-spacing: 20px;
         color: #ffffff;
-        margin: auto;
+        margin: 0 8rem;
     }
 
-    .header-section img {
-        width: 70%;
+    .yg-custom.header-section img,
+    .yg-custom-two.header-section img,
+    .yg-custom-three.header-section img {
+        width: 50%;
         padding-top: 20px;
         padding-bottom: 20px;
     }
@@ -1097,6 +1319,18 @@ iframe {
         display: none;
     }
 
+    .hero-section.yg-custom-one {
+        position: relative;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        padding: 0 20px;
+        overflow: hidden;
+    }
+
     .yourgoal-sectwo .heading h2 {
         text-align: center;
         font-family: 'Montserrat', sans-serif;
@@ -1212,12 +1446,56 @@ iframe {
         width: 70%;
     }
 
-    .midder-three.yg-custom .secimgtwo {
+    .midder-three.yg-custom .secimgtwo,
+    .midder-three.yg-custom-two .secimgtwo,
+    .midder-three.yg-custom-three .secimgtwo {
         background: #3B92FF;
     }
 
     .your-goals-element-box::before {
         display: none;
+    }
+
+    .midder-three.yg-custom .secimgtwo .textone,
+    .midder-three.yg-custom-two .secimgtwo .textone {
+        padding-top: 12%;
+        padding-bottom: 0px;
+        padding-left: 0;
+    }
+
+    .midder-three.yg-custom-two .secimgone .textone {
+        padding-top: 40px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .midder-three.yg-custom-two .secimgone .texttwo {
+        padding: 40px 30px 0px 30px;
+    }
+
+    .midder-three.yg-custom-two .secimgtwo .texttwo {
+        width: auto;
+        padding: 20px 30px 20px 32px;
+    }
+
+    .midder-three.yg-custom-two .secimgthree .textone {
+        padding: 40px 0px 0px 0px;
+    }
+
+    .midder-three.yg-custom-two .secimgthree .texttwo {
+        padding: 20px 30px 20px 30px;
+    }
+
+    .yg-custom-two.sectwo .midder-one h3 {
+        font-size: 40px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .yg-custom-two.sectwo .midder-one h2 {
+        font-size: 26px;
+        padding: 0;
+        margin: 0;
     }
 }
 

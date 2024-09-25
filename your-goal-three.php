@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Optavist</title>
+    <title>Your Goal Three | Optavist</title>
     <link href="assets/css/style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.css" rel="stylesheet">
@@ -23,7 +23,7 @@
 
 
     <section class="main-content">
-        <section class="hero-section">
+        <section class="hero-section yg-custom-three">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                     <!-- <a class="navbar-brand" href="#">Navbar</a> -->
@@ -65,7 +65,7 @@
                 </div>
             </nav>
 
-            <div class="header-section">
+            <div class="header-section yg-custom">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -80,7 +80,7 @@
             </div>
         </section>
 
-        <section class="yourgoal-sectwo">
+        <!-- <section class="yourgoal-sectwo">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -98,26 +98,20 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="sectwo">
+        </section> -->
+        <section class="sectwo yg-custom-two">
             <div class="midder-one">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-10 offset-md-1">
-                            <div class="your-goals-element-box">&nbsp;</div>
-                            <div class="iframe-container yg-custom" data-aos="fade-right" data-aos-delay="300">
-                                <iframe src="https://www.youtube.com/embed/XHOmBV4js_E?si=678QVhubK_wKmtHp"
-                                    title="YouTube video player"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                                </iframe>
-                            </div>
+                        <div class="col-md-12">
+                            <h2>(Avg. Orders $357 PQV)</h2>
+                            <h3>Possible</h3>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="midder-three yg-custom">
+            <div class="midder-three yg-custom-two">
                 <div class="element-circle">&nbsp;</div>
                 <div class="container">
                     <div class="row">
@@ -157,7 +151,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="texttwo">
-                                            <!-- <h2>Practice Calls</h2> -->
+                                            <h2>Your Goal</h2>
                                             <h3>How much would you like to make in your first month of building this
                                                 business? $________/month (How would this income impact your life?)</h3>
                                             <h3>How much would you like to make after 6 months? $________/month (How
@@ -202,87 +196,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-10 offset-md-2">
-                            <div class="secimgfour" data-aos="fade-left" data-aos-delay="300">
-                                <div class="row">
-                                    <div class="col-md-2">
-                                        <div class="textone">
-                                            <img src="assets/img/secimgfour-txt1.png">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="texttwo">
-                                            <h2>Send Your Goals to Your Mentor.</h2>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-2">
-                                        <div class="textthree">
-                                            <img src="assets/img/element-meet.png">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="secfour">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>You did it!</h2>
-                        <p>It's time to move on to step 02</p>
-                        <a>step 02</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="secfive">
-            <div class="first">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="one">
-                                <img src="assets/img/yg-left-arrow.png">
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="two">
-                                <img src="assets/img/chart.png">
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="three">
-                                <img src="assets/img/yg-right-arrow.png">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="second">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="one">
-                                <h2>PRINTABLE<br>GOALS<br>WORKSHEET</h2>
-                                <a>Download</a>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="two">
-                                <h2>NEW COACH<br>EARNING<br>POTENTIAL</h2>
-                                <a>Download</a>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="three">
-                                <h2>OPTAVIA<br>COMPENSATION<br>PLAN</h2>
-                                <a>Download</a>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </section>
