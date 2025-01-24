@@ -99,7 +99,7 @@
                 </div>
             </div>
         </section> -->
-        <section class="sectwo yg-custom-two">
+        <section class="sectwo yg-custom-three">
             <div class="midder-one">
                 <div class="container">
                     <div class="row">
@@ -111,7 +111,7 @@
                 </div>
             </div>
 
-            <div class="midder-three yg-custom-two">
+            <div class="midder-three yg-custom-three">
                 <div class="element-circle">&nbsp;</div>
                 <div class="container">
                     <div class="row">
@@ -125,16 +125,16 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="texttwo">
-                                            <h2>Your Why</h2>
-                                            <h3>Think about why you said YES to coaching. Write a few sentences here
-                                                about why you said yes, what this opportunity will do for you and how it
-                                                could impact your life.</h3>
+                                            <h2>2 New clients</h2>
+                                            <h3>357 x 2= 714<br>
+                                                714 x (15% + 3%CSB = 18%) = $128.52
+                                            </h3>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
-                                        <div class="textthree">
+                                        <!-- <div class="textthree">
                                             <img src="assets/img/element-question.png">
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -151,21 +151,17 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="texttwo">
-                                            <h2>Your Goal</h2>
-                                            <h3>How much would you like to make in your first month of building this
-                                                business? $________/month (How would this income impact your life?)</h3>
-                                            <h3>How much would you like to make after 6 months? $________/month (How
-                                                would this income impact your life?)</h3>
-                                            <h3>Dream Big… If anything were possible, what is a monthly income goal that
-                                                would blow your mind? $________/month (How would this income impact your
-                                                life?)</h3>
-                                            <h3>What will this extra income do for you/your family?</h3>
+                                            <h2>3 New Clients</h2>
+                                            <h3>357 x 3= 1071<br>
+                                                1071 x 18% = 192.78<br>
+                                                192.78+ 150 (CAB) = 342.78
+                                            </h3>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
-                                        <div class="textthree">
+                                        <!-- <div class="textthree">
                                             <img src="assets/img/secimgone-txt3.png">
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -182,21 +178,50 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="texttwo">
-                                            <h2>Your Time</h2>
-                                            <h3>How many hours per week can you realistically commit to achieve your
-                                                income goals? ________ hours/week</h3>
+                                            <h2>5 New Clients</h2>
+                                            <h3>
+                                                357 * 5 = 1785<br>
+                                                1785 * ( 20% (Senior Coach) + 5% CSB+)= 446.25<br>
+                                                446.25 + 250 (CAB) = 696.25
+                                            </h3>
                                         </div>
                                     </div>
                                     <div class="col-md-2">
-                                        <div class="textthree">
+                                        <!-- <div class="textthree">
                                             <img src="assets/img/element-timedue.png">
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
+                    <div class="row">
+                        <div class="col-md-10 offset-md-2">
+                            <div class="secimgfour" data-aos="fade-left" data-aos-delay="300">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="textone">
+                                            <img src="assets/img/secimgfour-txt1.png">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="texttwo">
+                                            <h2>7 New Clients</h2>
+                                            <h3>357 * 7 = 2499<br>
+                                                2499 * (22% (Manager) + 7% CSB+)= $724.71<br>
+                                                724.71 + 250 (CAB) = $974.71
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <!-- <div class="textthree">
+                                            <img src="assets/img/element-meet.png">
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

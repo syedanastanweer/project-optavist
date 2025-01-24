@@ -65,12 +65,12 @@
                 </div>
             </nav>
 
-            <div class="header-section yg-custom">
+            <div class="header-section yg-custom-two">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h1 class="animate-topToBottom">Optavist</h1>
-                            <h2 class="animate-leftToRight">Set</h2>
+                            <!-- <h1 class="animate-topToBottom">Optavist</h1>
+                            <h2 class="animate-leftToRight">Set</h2> -->
                             <img class="animate-bottomToTop" src="assets/img/about-banner-txt-1.png">
                             <!-- <h3 class="animate-zoomIntoZoomOutOne">5 steps to fast track your success!</h3> -->
                         </div>
